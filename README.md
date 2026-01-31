@@ -1,11 +1,10 @@
 # AI-E-Commerce-Support-Agent
----------------------------------------------------------------------------------------------------
 
 An AI-powered e-commerce support application that helps users find products using natural language queries.
 The system uses a retrieval-based (RAG) approach to return accurate results without hallucination.
-----------------------------------------------------------------------------------------------------
 
-Features
+-------------------------------------------------------------------------------------------------------
+# Features
 
 Semantic Product Search(RAG Based)
 
@@ -15,7 +14,7 @@ Clean and fast UI using Streamlit
 
 -----------------------------------------------------------------------------------------------------
 
-Tech Stack
+# Tech Stack
 
 Python
 
