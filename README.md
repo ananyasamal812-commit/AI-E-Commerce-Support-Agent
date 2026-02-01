@@ -33,15 +33,15 @@ RAG Architecture
 # Architecture 
 
 User Query
-   ↓
+   ->
 Sentence Transformer (Embeddings)
-   ↓
+   ->
 FAISS Vector Search
-   ↓
+   ->
 Relevant Products
-   ↓
+   ->
 Response Generation (RAG)
-   ↓
+   ->
 UI Rendering (Streamlit)
 
 ----------------------------------------------------------------------------------------------------
