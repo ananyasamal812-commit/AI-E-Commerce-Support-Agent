@@ -53,31 +53,32 @@ UI Rendering (Streamlit)
 
 # 🚀 Getting Started
 
-## 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 
-```bash
+```
 git clone https://github.com/ananyasamal812-commit/AI-E-Commerce-Support-Agent.git
 cd AI-E-Commerce-Support-Agent
+```
 
 2️⃣ Create & Activate Virtual Environment
 
+```
 python -m venv venv
-
-.\venv\Scripts\activate  #Windows
-
+.\venv\Scripts\activate   # Windows
 source venv/bin/activate  #Mac/Linux
+```
 
 3️⃣ Install Dependencies
 
+```
 pip install -r requirements.txt
+```
 
 4️⃣ Run the App
 
+```
 streamlit run app.py
-
-
-
-
+```
 
 --------------------------------------------------------------------------------------------------------
 
