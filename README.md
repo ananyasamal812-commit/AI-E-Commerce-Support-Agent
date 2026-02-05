@@ -1,26 +1,31 @@
-# AI-E-Commerce-Support-Agent
+# 🛒AI-E-Commerce-Support-Agent
 
 An AI-powered e-commerce support application that helps users find products using natural language queries.
-The system uses a retrieval-based (RAG) approach to return accurate results without hallucination.
+The system uses a retrieval-based (RAG) approach to return results from a structured product catalog.
 
 -------------------------------------------------------------------------------------------------------
-# Features
 
-Semantic Product Search(RAG Based)
+# ✨ Key Features
 
-Fast Retrieval using FAISS + Sentence Transformers
+🔍 Retrieval-based product search using a structured product dataset
 
-Clean and fast UI using Streamlit
+🧠 RAG architecture with strict grounding on product data
+
+🖥️ Interactive Streamlit UI 
+
+📦 Supports 1000+ products via CSV-based catalog
+
+🏷️ Category-aware filtering (phones, laptops, TVs, headphones, wearables)
 
 -----------------------------------------------------------------------------------------------------
 
-# Tech Stack
+# 🧰Tech Stack
 
 Python
 
 Streamlit – Web UI
 
-Sentence-Transformers – Embeddings
+Sentence Transformers – Embeddings
 
 FAISS – Vector Search
 
@@ -45,3 +50,42 @@ Response Generation (RAG)
 UI Rendering (Streamlit)
 
 ----------------------------------------------------------------------------------------------------
+
+# 🚀 Getting Started
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/ananyasamal812-commit/AI-E-Commerce-Support-Agent.git
+cd AI-E-Commerce-Support-Agent
+
+2️⃣ Create & Activate Virtual Environment
+
+python -m venv venv
+.\venv\Scripts\activate   # Windows
+
+3️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+4️⃣ Run the App
+
+streamlit run app.py
+
+--------------------------------------------------------------------------------------------------------
+
+# 🧪 Sample Queries
+
+Suggest a smartphone under 30000
+
+Best laptop
+
+Recommend headphones
+
+Suggest a TV
+
+Best smartwatch
+
+---------------------------------------------------------------------------------------------------------
+
+
+
